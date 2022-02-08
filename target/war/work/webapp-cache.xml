@@ -1,0 +1,89 @@
+<webapp-structure>
+  <registeredFiles>
+    <entry>
+      <string>currentBuild</string>
+      <path-set>
+        <pathsSet class="linked-hash-set">
+          <string>index.jsp</string>
+        </pathsSet>
+      </path-set>
+    </entry>
+  </registeredFiles>
+  <dependenciesInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>javax</groupId>
+        <artifactId>javaee-web-api</artifactId>
+        <version>6.0-RC1</version>
+        <type>jar</type>
+        <scope>provided</scope>
+        <exclusions/>
+        <location>
+          <lineNumber>18</lineNumber>
+          <columnNumber>21</columnNumber>
+          <source>
+            <modelId>hdfc:atm:v1</modelId>
+            <location>D:\sample war file\atm\pom.xml</location>
+          </source>
+        </location>
+        <groupIdLocation>
+          <lineNumber>19</lineNumber>
+          <columnNumber>22</columnNumber>
+          <source reference="../../location/source"/>
+        </groupIdLocation>
+        <artifactIdLocation>
+          <lineNumber>20</lineNumber>
+          <columnNumber>25</columnNumber>
+          <source reference="../../location/source"/>
+        </artifactIdLocation>
+        <versionLocation>
+          <lineNumber>21</lineNumber>
+          <columnNumber>22</columnNumber>
+          <source reference="../../location/source"/>
+        </versionLocation>
+        <scopeLocation>
+          <lineNumber>22</lineNumber>
+          <columnNumber>20</columnNumber>
+          <source reference="../../location/source"/>
+        </scopeLocation>
+        <managementKey>javax:javaee-web-api:jar</managementKey>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+    <org.apache.maven.plugin.war.util.DependencyInfo>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>3.8.2</version>
+        <type>jar</type>
+        <scope>test</scope>
+        <exclusions/>
+        <location>
+          <lineNumber>25</lineNumber>
+          <columnNumber>21</columnNumber>
+          <source reference="../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/location/source"/>
+        </location>
+        <groupIdLocation>
+          <lineNumber>26</lineNumber>
+          <columnNumber>22</columnNumber>
+          <source reference="../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/location/source"/>
+        </groupIdLocation>
+        <artifactIdLocation>
+          <lineNumber>27</lineNumber>
+          <columnNumber>25</columnNumber>
+          <source reference="../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/location/source"/>
+        </artifactIdLocation>
+        <versionLocation>
+          <lineNumber>28</lineNumber>
+          <columnNumber>22</columnNumber>
+          <source reference="../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/location/source"/>
+        </versionLocation>
+        <scopeLocation>
+          <lineNumber>29</lineNumber>
+          <columnNumber>20</columnNumber>
+          <source reference="../../../../org.apache.maven.plugin.war.util.DependencyInfo/dependency/location/source"/>
+        </scopeLocation>
+        <managementKey>junit:junit:jar</managementKey>
+      </dependency>
+    </org.apache.maven.plugin.war.util.DependencyInfo>
+  </dependenciesInfo>
+</webapp-structure>
